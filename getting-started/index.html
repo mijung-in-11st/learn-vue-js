@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting Started</title>
+  </head>
+  <body>
+    <div id="app">
+      {{ message }}
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script>
+      // vue로 개발할 때 필수로 생성해야함
+      // 변수안에 인스턴스의 내용을 담을 수 있음
+      new Vue({
+        el: '#app',
+        data: {
+          message: 'Hello Vues'
+        }
+      })
+    </script>
+  </body>
+</html>
